@@ -4,12 +4,20 @@ block content
   div.container
     div.row
       div.span12
+        form(method='post', action='/' id='auth')
+          legend Authorize
+          input(type='email', name='email', id='email' value='email@test.com')
+          p
+          div.form-actions
+            input.btn.btn-primary(type='submit', value='Submit' id='email-submit')
+    div.row
+      div.span12
         form(method='post', action='/')
-          legend express-upload-progress
+          legend Upload file
           input(type='file', name='myFile', id='myFile')
           p
           div.form-actions
-            input.btn.btn-primary(type='submit', value='Submit')
+            input.btn.btn-primary(type='submit', value='Submit' id='file-submit')
     hr
     div.row
       div.span12

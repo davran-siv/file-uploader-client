@@ -1,18 +1,14 @@
 {
-  "name": "express-upload-progress",
-  "version": "0.0.1",
-  "description": "example to show file uploading with express.js and progress bar",
+  "name": "file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "node app"
+    "start": "node ./main.js"
   },
   "dependencies": {
     "jade": "*",
-    "express": "~3.1.0"
-  },
-  "author": {
-    "name": "Mirco Zeiss",
-    "email": "mirco.zeiss@gmail.com",
-    "twitter": "zeMirco"
+    "express": "^4.16.3"
   },
   "engines": {
     "node": "0.8.x",
